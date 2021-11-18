@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 
-const attendees = [
-  "Maex"
-]
+const attendees = [{
+  name: "Maex",
+  role: "Instructor"
+}]
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <h1>ReDi Git Course 2021</h1>
         <h2>Attendees</h2>
         <ul>
-          {attendees.map( name => <li>{name}</li>)}
+          {attendees.map( ({name, role}) => <li>{name} ({role})</li>)}
         </ul>
       </header>
     </div>
