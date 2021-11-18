@@ -3,7 +3,11 @@ import './App.css';
 
 const attendees = [
   "Maex",
-  "Tiago"
+  "Tiago",
+  "Niyat",
+  "Saerom",
+  "Matt",
+  "Christophe"
 ]
 
 function App() {
