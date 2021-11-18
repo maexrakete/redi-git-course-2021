@@ -9,7 +9,7 @@ const attendees = [
   {
     name: "Tiago",
     dreamjob: "Synthesizer Creator"
-  }
+  },
  // "Tiago Rezende",
  {
      name: "Niyat",
