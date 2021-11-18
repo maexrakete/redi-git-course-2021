@@ -7,7 +7,10 @@ const attendees = [
     dreamjob: "Makerspace-Owner"
   },
  // "Tiago Rezende",
- // "Niyat",
+ {
+     name: "Niyat",
+     dreamjob: "Astrophysicst"
+ }, 
  // "Saerom",
  // "Matt",
  // "Christophe"
