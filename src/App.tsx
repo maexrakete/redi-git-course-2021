@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 
 const attendees = [
-  "Maex"
+  "Maex",
+  "Tiago"
 ]
 
 function App() {
