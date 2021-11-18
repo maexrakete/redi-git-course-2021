@@ -2,12 +2,19 @@ import React from 'react';
 import './App.css';
 
 const attendees = [
-  "Maex",
-  "Tiago Rezende",
-  "Niyat",
-  "Saerom",
-  "Matt",
-  "Christophe"
+  {
+    name: "Maex",
+    dreamjob: "Makerspace-Owner"
+  },
+  {
+    name: "Tiago",
+    dreamjob: "Synthesizer Creator"
+  }
+ // "Tiago Rezende",
+ // "Niyat",
+ // "Saerom",
+ // "Matt",
+ // "Christophe"
 ]
 
 function App() {
@@ -17,7 +24,7 @@ function App() {
         <h1>ReDi Git Course 2021</h1>
         <h2>Attendees</h2>
         <ul>
-          {attendees.map( name => <li>{name}</li>)}
+          {attendees.map( ({name, dreamjob}) => <li>{name} wants to be a {dreamjob}</li>)}
         </ul>
       </header>
     </div>
