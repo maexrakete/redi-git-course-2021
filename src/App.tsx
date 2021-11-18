@@ -6,6 +6,10 @@ const attendees = [
     name: "Maex",
     dreamjob: "Makerspace-Owner"
   },
+  {
+    name: "Tiago",
+    dreamjob: "Synthesizer Creator"
+  }
  // "Tiago Rezende",
  // "Niyat",
  // "Saerom",
