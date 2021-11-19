@@ -4,6 +4,7 @@ import './App.css';
 const attendees = [
   "Maex",
   "Tiago"
+  "Kristo"
 ]
 
 function App() {
